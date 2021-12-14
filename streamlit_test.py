@@ -35,7 +35,7 @@ def create_random_number(numero_1, numero_2):
 
 def create_random_number2(numero_1, numero_2):
     size = numero_2
-    rng = default_rng(17)
+    rng = default_rng(numero_1)
     return rng.normal(size=size)
 
 
