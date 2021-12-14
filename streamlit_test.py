@@ -1,8 +1,8 @@
 import streamlit as st
-#import pandas as pd
-#import numpy as np
-#from numpy.random import default_rng
-#import random
+import pandas as pd
+import numpy as np
+from numpy.random import default_rng
+import random
 
 
 # #CSS
