@@ -63,30 +63,30 @@ row2_spacer1, row2_spacer3 = st.columns(
 
 
 
-with row2_spacer1:
-    with st.echo(code_location='below'):
+# with row2_spacer1:
+#     with st.echo(code_location='below'):
         
-        import plotly.express as px
-        fig = px.scatter(
-            df,
-            x="llave_1",
-            y="llave_2",
-            facet_col ='cat_2',
-            color = 'categorical',
-            trendline="ols",
-        )
-        fig.update_layout(height=300, width=600, title_text="Side By Side Subplots")
-    # fig.update_layout(
-    #     xaxis=dict(
-    #         title="miles per galon"
-    #     ),
-    #     yaxis=dict(
-    #         title="power",
-    #     ),
-    #     xaxis2=dict(
-    #         title="miles per galon",
-    #     )
-    #)
-with row2_spacer3:
-    st.write(fig)
+#         import plotly.express as px
+#         fig = px.scatter(
+#             df,
+#             x="llave_1",
+#             y="llave_2",
+#             facet_col ='cat_2',
+#             color = 'categorical',
+#             trendline="ols",
+#         )
+#         fig.update_layout(height=300, width=600, title_text="Side By Side Subplots")
+#     # fig.update_layout(
+#     #     xaxis=dict(
+#     #         title="miles per galon"
+#     #     ),
+#     #     yaxis=dict(
+#     #         title="power",
+#     #     ),
+#     #     xaxis2=dict(
+#     #         title="miles per galon",
+#     #     )
+#     #)
+# with row2_spacer3:
+#     st.write(fig)
 #print(df.head())
