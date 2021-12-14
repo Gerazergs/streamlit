@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from numpy.random import default_rng
 import random
-import plotly.express as px
+
 
 #CSS
 def local_css(file_name):
@@ -66,7 +66,7 @@ row2_spacer1, row2_spacer3 = st.columns(
 with row2_spacer1:
     with st.echo(code_location='below'):
         
-        
+        import plotly.express as px
         fig = px.scatter(
             df,
             x="llave_1",
